@@ -1,0 +1,108 @@
+body {
+  font-family: "Raleway", sans-serif;
+}
+
+a {
+  color: none;
+  text-decoration: none;
+}
+
+/* Hero Section */
+
+.navbar {
+  background-color: #989d6e;
+}
+
+#banner {
+  background-image: url("../img/cress-keyboard-computer-spice-plant-wallpaper.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left;
+  height: 550px;
+  opacity: 0.8;
+}
+
+/* Acerca de mi */
+
+#Acerca-de-mi {
+  color: #5b4729;
+}
+
+.perfil {
+  display: flex;
+  justify-content: center;
+}
+
+.perfil button {
+  display: flex;
+  align-items: center;
+}
+
+.perfil .btn-outline-info:hover {
+  color: #fff;
+  background-color: #756d5b ;
+  border-color: #756d5b ;
+}
+
+.perfil .btn-outline-info {
+  color: #756d5b ;
+  border-color: #756d5b ;
+}
+
+/* Mis trabajos */
+
+#Mis-trabajos {
+  background-color: #B9C397;
+  color: #5b4729;
+}
+
+#Mis-trabajos .image-top {
+  height: 300px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left top;
+}
+
+#Mis-trabajos .btn-outline-info {
+  color: #756d5b ;
+  border-color: #756d5b ;
+}
+
+#Mis-trabajos .btn-outline-info:hover {
+  color: #fff;
+  background-color: #756d5b ;
+  border-color: #756d5b ;
+}
+  
+  /* Contacto */
+
+#Contacto {
+  color: #5b4729;
+}
+
+#Contacto .btn-outline-info {
+  color: #756d5b ;
+  border-color: #756d5b ;
+}
+
+#Contacto .btn-outline-info:hover {
+  color: #fff;
+  background-color: #756d5b ;
+  border-color: #756d5b ;
+}
+  
+  /* @media (max-width: 768px) {
+    #Contacto form label {
+      font-weight: 400;
+    }
+  
+    .navbar-brand{
+      width: 100px;
+    }
+  
+  } */
+
+footer {
+  background-color: #989d6e;
+} 
+  
